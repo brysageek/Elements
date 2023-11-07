@@ -15,11 +15,9 @@
         public string? Symbol { get; private set; }
         public float FirstIonizationEnergy { get; private set; } 
         public float Electronegativity { get; private set; }
-        public int[]? OxidationStates { get; private set; }
-        public string? ElectronConfiguration { get; private set; }
-        public MetalClassificationType MetalType { get; private set; }
+        public MetalClassificationTypes MetalType { get; private set; }
 
-        public ChemicalElement(int group, int period, int atomicNumber, float atomicMass, string? name, string? symbol, float firstIonizationEnergy, float electronegativity, int[]? oxidationStates, string? electronConfiguration, MetalClassificationType metalType)
+        public ChemicalElement(int group, int period, int atomicNumber, float atomicMass, string? name, string? symbol, float firstIonizationEnergy, float electronegativity, MetalClassificationTypes metalType)
         {
             Group = group;
             Period = period;
@@ -29,8 +27,6 @@
             Symbol = symbol;
             FirstIonizationEnergy = firstIonizationEnergy;
             Electronegativity = electronegativity;
-            OxidationStates = oxidationStates;
-            ElectronConfiguration = electronConfiguration;
             MetalType = metalType;
         }
     }

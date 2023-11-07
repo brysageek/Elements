@@ -1,6 +1,6 @@
 ﻿namespace Brysageek.Elements
 {
-    public enum MetalClassificationType
+    public enum MetalClassificationTypes
     {
         AlkaliMetal,
         AlkalineMetal,
