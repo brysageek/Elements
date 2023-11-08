@@ -147,6 +147,78 @@
             Add(new ChemicalElement(18, 4, 36,
                 83.798f, "Krypton", "Kr", 1350.8f,
                 3.00f, MetalClassificationTypes.NobleGas));
+
+            Add(new ChemicalElement(1, 5, 37,
+                85.4678f, "Rubidium", "Rb", 403.0f,
+                0.82f, MetalClassificationTypes.AlkaliMetal));
+
+            Add(new ChemicalElement(2, 5, 38,
+                87.62f, "Strontium", "Sr", 549.5f,
+                0.95f, MetalClassificationTypes.AlkalineMetal));
+
+            Add(new ChemicalElement(3, 5, 39,
+                88.90585f, "Yttrium", "Y", 600.0f,
+                1.22f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(4, 5, 40,
+                91.224f, "Zirconium", "Zr", 640.1f,
+                1.33f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(5, 5, 41,
+                92.90638f, "Niobium", "Nb", 652.1f,
+                1.60f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(6, 5, 42,
+                95.96f, "Molybdenum", "Mo", 684.3f,
+                2.16f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(7, 5, 43,
+                98.00f, "Technetium", "Tc", 702.0f,
+                1.90f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(8, 5, 44,
+                101.07f, "Ruthenium", "Ru", 710.2f,
+                2.20f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(9, 5, 45,
+                102.9055f, "Rhodium", "Rh", 719.7f,
+                2.28f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(10, 5, 46,
+                106.42f, "Palladium", "Pd", 804.4f,
+                2.20f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(11, 5, 47,
+                107.8682f, "Silver", "Ag", 731.0f,
+                1.93f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(12, 5, 48,
+                112.441f, "Cadmium", "Cd", 867.8f,
+                1.69f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(13, 5, 49,
+                114.818f, "Indium", "In", 558.3f,
+                1.78f, MetalClassificationTypes.OtherMetal));
+
+            Add(new ChemicalElement(14, 5, 50,
+                118.710f, "Tin", "Sn", 708.6f,
+                1.96f, MetalClassificationTypes.OtherMetal));
+
+            Add(new ChemicalElement(15, 5, 51,
+                121.760f, "Antimony", "Sb", 834.0f,
+                2.05f, MetalClassificationTypes.Metalloid));
+
+            Add(new ChemicalElement(16, 5, 52,
+                127.60f, "Tellurium", "Te", 869.3f,
+                2.10f, MetalClassificationTypes.Metalloid));
+
+            Add(new ChemicalElement(17, 5, 53,
+                126.9044f, "Iodine", "I", 1008.4f,
+                2.66f, MetalClassificationTypes.Halogen));
+
+            Add(new ChemicalElement(18, 5, 54,
+                131.293f, "Xenon", "Xe", 1170.4f,
+                2.60f, MetalClassificationTypes.NobleGas));
         }
     }
 }
