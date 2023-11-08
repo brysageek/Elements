@@ -29,6 +29,20 @@ namespace Brysageek.Elements
         public static ChemicalElement Calcium => ChemicalElements.Value[19];
         public static ChemicalElement Scandium => ChemicalElements.Value[20];
         public static ChemicalElement Titanium => ChemicalElements.Value[21];
+        public static ChemicalElement Vanadium => ChemicalElements.Value[22];
+        public static ChemicalElement Chromium => ChemicalElements.Value[23];
+        public static ChemicalElement Manganese => ChemicalElements.Value[24];
+        public static ChemicalElement Iron => ChemicalElements.Value[25];
+        public static ChemicalElement Cobalt => ChemicalElements.Value[26];
+        public static ChemicalElement Nickel => ChemicalElements.Value[27];
+        public static ChemicalElement Copper => ChemicalElements.Value[28];
+        public static ChemicalElement Zinc => ChemicalElements.Value[29];
+        public static ChemicalElement Gallium => ChemicalElements.Value[30];
+        public static ChemicalElement Germanium => ChemicalElements.Value[31];
+        public static ChemicalElement Arsenic => ChemicalElements.Value[32];
+        public static ChemicalElement Selenium => ChemicalElements.Value[33];
+        public static ChemicalElement Bromine => ChemicalElements.Value[34];
+        public static ChemicalElement Krypton => ChemicalElements.Value[35];
 
         private Chemicals(IList<ChemicalElement> list) : base(list)
         {

@@ -86,11 +86,67 @@
 
             Add(new ChemicalElement(3, 4, 21,
                 44.95591f, "Scandium", "Sc", 633.1f,
-                1.36f, MetalClassificationTypes.Lanthanoid));
+                1.36f, MetalClassificationTypes.TransitionMetal));
 
             Add(new ChemicalElement(4, 4, 22,
                 47.867f, "Titanium", "Ti", 658.8f,
-                1.54f, MetalClassificationTypes.Lanthanoid));
+                1.54f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(5, 4, 23,
+                50.9415f, "Vanadium", "V", 650.9f,
+                1.63f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(6, 4, 24,
+                51.9962f, "Chromium", "Cr", 652.9f,
+                1.66f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(7, 4, 25,
+                54.93804f, "Manganese", "Mn", 717.3f,
+                1.55f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(8, 4, 26,
+                55.845f, "Iron", "Fe", 762.5f,
+                1.83f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(9, 4, 27,
+                58.93319f, "Cobalt", "Co", 760.4f,
+                1.91f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(10, 4, 28,
+                58.6934f, "Nickel", "Ni", 737.1f,
+                1.88f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(11, 4, 29,
+                63.546f, "Copper", "Cu", 745.5f,
+                1.90f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(12, 4, 30,
+                65.38f, "Zinc", "Zn", 906.4f,
+                1.65f, MetalClassificationTypes.TransitionMetal));
+
+            Add(new ChemicalElement(13, 4, 31,
+                69.723f, "Gallium", "Ga", 578.8f,
+                1.81f, MetalClassificationTypes.OtherMetal));
+
+            Add(new ChemicalElement(14, 4, 32,
+                72.64f, "Germanium", "Ge", 762.0f,
+                2.01f, MetalClassificationTypes.Metalloid));
+
+            Add(new ChemicalElement(15, 4, 33,
+                74.92160f, "Arsenic", "As", 947.0f,
+                2.18f, MetalClassificationTypes.Metalloid));
+
+            Add(new ChemicalElement(16, 4, 34,
+                78.96f, "Selenium", "Se", 941.0f,
+                2.55f, MetalClassificationTypes.NonMetal));
+
+            Add(new ChemicalElement(17, 4, 35,
+                79.904f, "Bromine", "Br", 1139.9f,
+                2.96f, MetalClassificationTypes.Halogen));
+
+            Add(new ChemicalElement(18, 4, 36,
+                83.798f, "Krypton", "Kr", 1350.8f,
+                3.00f, MetalClassificationTypes.NobleGas));
         }
     }
 }
