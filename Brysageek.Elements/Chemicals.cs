@@ -61,6 +61,42 @@ namespace Brysageek.Elements
         public static ChemicalElement Tellurium => ChemicalElements.Value[51];
         public static ChemicalElement Iodine => ChemicalElements.Value[52];
         public static ChemicalElement Xenon => ChemicalElements.Value[53];
+        public static ChemicalElement Cesium => ChemicalElements.Value[54];
+        public static ChemicalElement Barium => ChemicalElements.Value[55];
+        public static ChemicalElement Lanthanum => ChemicalElements.Value[56];
+        public static ChemicalElement Cerium => ChemicalElements.Value[57];
+        public static ChemicalElement Praseodymium => ChemicalElements.Value[58];
+        public static ChemicalElement Neodymium => ChemicalElements.Value[59];
+        public static ChemicalElement Promethium => ChemicalElements.Value[60];
+        public static ChemicalElement Samarium => ChemicalElements.Value[61];
+        public static ChemicalElement Europium => ChemicalElements.Value[62];
+        public static ChemicalElement Gadolinium => ChemicalElements.Value[63];
+        public static ChemicalElement Terbium => ChemicalElements.Value[64];
+        public static ChemicalElement Dysprosium => ChemicalElements.Value[65];
+        public static ChemicalElement Holmium => ChemicalElements.Value[66];
+        public static ChemicalElement Erbium => ChemicalElements.Value[67];
+        public static ChemicalElement Thulium => ChemicalElements.Value[68];
+        public static ChemicalElement Ytterbium => ChemicalElements.Value[69];
+        public static ChemicalElement Lutetium => ChemicalElements.Value[70];
+        public static ChemicalElement Hafnium => ChemicalElements.Value[71];
+        public static ChemicalElement Tantalum => ChemicalElements.Value[72];
+        public static ChemicalElement Tungsten => ChemicalElements.Value[73];
+        public static ChemicalElement Rhenium => ChemicalElements.Value[74];
+        public static ChemicalElement Osmium => ChemicalElements.Value[75];
+        public static ChemicalElement Iridium => ChemicalElements.Value[76];
+        public static ChemicalElement Platinum => ChemicalElements.Value[77];
+        public static ChemicalElement Gold => ChemicalElements.Value[78];
+        public static ChemicalElement Mercury => ChemicalElements.Value[79];
+        public static ChemicalElement Thallium => ChemicalElements.Value[80];
+        public static ChemicalElement Lead => ChemicalElements.Value[81];
+        public static ChemicalElement Bismuth => ChemicalElements.Value[82];
+        public static ChemicalElement Polonium => ChemicalElements.Value[83];
+        public static ChemicalElement Astatine => ChemicalElements.Value[84];
+        public static ChemicalElement Radon => ChemicalElements.Value[85];
+
+
+
+
 
         private Chemicals(IList<ChemicalElement> list) : base(list)
         {
