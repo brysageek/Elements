@@ -174,7 +174,7 @@
 
             Add(new ChemicalElement(7, 5, 43,
                 98.00f, "Technetium", "Tc", 702.0f,
-                1.90f, MetalClassificationTypes.TransitionMetal));
+                1.90f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(8, 5, 44,
                 101.07f, "Ruthenium", "Ru", 710.2f,
@@ -338,27 +338,27 @@
 
             Add(new ChemicalElement(16, 6, 84,
                 210.0f, "Polonium", "Po", 812.1f,
-                2.00f, MetalClassificationTypes.Metalloid));
+                2.00f, MetalClassificationTypes.Metalloid, true));
 
             Add(new ChemicalElement(17, 6, 85,
                 210.0f, "Astatine", "At", 890.0f,
-                2.20f, MetalClassificationTypes.Halogen));
+                2.20f, MetalClassificationTypes.Halogen, true));
 
             Add(new ChemicalElement(18, 6, 86,
                 220.0f, "Radon", "Rn", 1037.0f,
-                2.20f, MetalClassificationTypes.NobleGas));
+                2.20f, MetalClassificationTypes.NobleGas, true));
 
             Add(new ChemicalElement(1, 7, 87,
                 223.0f, "Francium", "Fr", 380.0f,
-                0.70f, MetalClassificationTypes.AlkaliMetal));
+                0.70f, MetalClassificationTypes.AlkaliMetal, true));
 
             Add(new ChemicalElement(2, 7, 88,
                 226.0f, "Radium", "Ra", 509.3f,
-                0.90f, MetalClassificationTypes.AlkalineMetal));
+                0.90f, MetalClassificationTypes.AlkalineMetal, true));
 
             Add(new ChemicalElement(3, 7, 89,
                 227.0f, "Actinium", "Ac", 499.0f,
-                1.10f, MetalClassificationTypes.Actinoid));
+                1.10f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(4, 7, 90,
                 232.0380f, "Thorium", "Th", 587.0f,
@@ -374,99 +374,99 @@
 
             Add(new ChemicalElement(7, 7, 93,
                 237.0f, "Neptunium", "Np", 604.5f,
-                1.36f, MetalClassificationTypes.Actinoid));
+                1.36f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(8, 7, 94,
                 244.0f, "Plutonium", "Pu", 584.7f,
-                1.28f, MetalClassificationTypes.Actinoid));
+                1.28f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(9, 7, 95,
                 243.0f, "Americium", "Am", 578.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(10, 7, 96,
                 247.0f, "Curium", "Cm", 581.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(11, 7, 97,
                 247.0f, "Berkelium", "Bk", 601.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(12, 7, 98,
                 251.0f, "Californium", "Cf", 608.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(13, 7, 99,
                 252.0f, "Einsteinium", "Es", 619.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(14, 7, 100,
                 257.0f, "Fermium", "Fm", 627.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(15, 7, 101,
                 258.0f, "Mendelevium", "Md", 635.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(16, 7, 102,
                 259.0f, "Nobelium", "No", 642.0f,
-                1.30f, MetalClassificationTypes.Actinoid));
+                1.30f, MetalClassificationTypes.Actinoid, true));
 
             Add(new ChemicalElement(3, 7, 103,
                 262.0f, "Lawrencium ", "Lr", 470.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(4, 7, 104,
                 261.0f, "Rutherfordium ", "Rf", 580.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(5, 7, 105,
                 262.0f, "Dubnium ", "Db", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(6, 7, 106,
                 266.0f, "Seaborgium ", "Sg", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(7, 7, 107,
                 264.0f, "Bohrium ", "Bh", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(8, 7, 108,
                 277.0f, "Hassium ", "Hs", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(9, 7, 109,
                 268.0f, "Meitnerium ", "Mt", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(10, 7, 110,
                 271.0f, "Darmstadium ", "Ds", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(11, 7, 111,
                 272.0f, "Roentgenium ", "Rg", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(12, 7, 112,
                 285.0f, "Copernicium ", "Cn", 0.0f,
-                0.00f, MetalClassificationTypes.TransitionMetal));
+                0.00f, MetalClassificationTypes.TransitionMetal, true));
 
             Add(new ChemicalElement(13, 7, 113,
                 284.0f, "Ununtrium ", "Uut", 0.0f,
-                0.00f, MetalClassificationTypes.Unknown));
+                0.00f, MetalClassificationTypes.Unknown, true));
 
             Add(new ChemicalElement(14, 7, 114,
                 289.0f, "Ununquadium ", "Uuq", 0.0f,
-                0.00f, MetalClassificationTypes.Unknown));
+                0.00f, MetalClassificationTypes.Unknown, true));
 
             Add(new ChemicalElement(15, 7, 115,
                 288.0f, "Ununpentium ", "Uup", 0.0f,
-                0.00f, MetalClassificationTypes.Unknown));
+                0.00f, MetalClassificationTypes.Unknown, true));
 
             Add(new ChemicalElement(16, 7, 116,
                 292.0f, "Ununhexium ", "Uuh", 0.0f,
-                0.00f, MetalClassificationTypes.Unknown));
+                0.00f, MetalClassificationTypes.Unknown, true));
 
             Add(new ChemicalElement(17, 7, 117,
                 0.0f, "Ununseptium ", "Uus", 0.0f,
@@ -474,7 +474,7 @@
 
             Add(new ChemicalElement(18, 7, 118,
                 294.0f, "Ununoctium ", "Uuo", 0.0f,
-                0.00f, MetalClassificationTypes.Unknown));
+                0.00f, MetalClassificationTypes.Unknown, true));
         }
     }
 }
