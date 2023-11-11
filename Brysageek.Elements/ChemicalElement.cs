@@ -7,17 +7,19 @@
     /// </summary>
     public class ChemicalElement
     {
-        public int Group { get; private set; }
-        public int Period { get; private set; }
-        public int AtomicNumber { get; private set; }
-        public float AtomicMass { get; private set; }
-        public string? Name { get; private set; }
-        public string? Symbol { get; private set; }
-        public float FirstIonizationEnergy { get; private set; } 
-        public float Electronegativity { get; private set; }
-        public MetalClassificationTypes MetalType { get; private set; }
+        public int Group { get; }
+        public int Period { get; }
+        public int AtomicNumber { get; }
+        public float AtomicMass { get; }
+        public string? Name { get; }
+        public string? Symbol { get; }
+        public float FirstIonizationEnergy { get; } 
+        public float Electronegativity { get; }
+        public MetalClassificationTypes MetalType { get; }
+        public bool Radioactive { get; }
 
-        public ChemicalElement(int group, int period, int atomicNumber, float atomicMass, string? name, string? symbol, float firstIonizationEnergy, float electronegativity, MetalClassificationTypes metalType)
+
+        public ChemicalElement(int group, int period, int atomicNumber, float atomicMass, string? name, string? symbol, float firstIonizationEnergy, float electronegativity, MetalClassificationTypes metalType, bool radioactive = false)
         {
             Group = group;
             Period = period;
@@ -28,6 +30,7 @@
             FirstIonizationEnergy = firstIonizationEnergy;
             Electronegativity = electronegativity;
             MetalType = metalType;
+            Radioactive = radioactive;
         }
     }
 }
