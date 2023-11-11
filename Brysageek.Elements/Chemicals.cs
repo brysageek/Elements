@@ -93,10 +93,38 @@ namespace Brysageek.Elements
         public static ChemicalElement Polonium => ChemicalElements.Value[83];
         public static ChemicalElement Astatine => ChemicalElements.Value[84];
         public static ChemicalElement Radon => ChemicalElements.Value[85];
-
-
-
-
+        public static ChemicalElement Francium => ChemicalElements.Value[86];
+        public static ChemicalElement Radium => ChemicalElements.Value[87];
+        public static ChemicalElement Actinium => ChemicalElements.Value[88];
+        public static ChemicalElement Thorium => ChemicalElements.Value[89];
+        public static ChemicalElement Protactinium => ChemicalElements.Value[90];
+        public static ChemicalElement Uranium => ChemicalElements.Value[91];
+        public static ChemicalElement Neptunium => ChemicalElements.Value[92];
+        public static ChemicalElement Plutonium => ChemicalElements.Value[93];
+        public static ChemicalElement Americium => ChemicalElements.Value[94];
+        public static ChemicalElement Curium => ChemicalElements.Value[95];
+        public static ChemicalElement Berkelium => ChemicalElements.Value[96];
+        public static ChemicalElement Californium => ChemicalElements.Value[97];
+        public static ChemicalElement Einsteinium => ChemicalElements.Value[98];
+        public static ChemicalElement Fermium => ChemicalElements.Value[99];
+        public static ChemicalElement Mendelevium => ChemicalElements.Value[100];
+        public static ChemicalElement Nobelium => ChemicalElements.Value[101];
+        public static ChemicalElement Lawrencium => ChemicalElements.Value[102];
+        public static ChemicalElement Rutherfordium => ChemicalElements.Value[103];
+        public static ChemicalElement Dubnium => ChemicalElements.Value[104];
+        public static ChemicalElement Seaborgium => ChemicalElements.Value[105];
+        public static ChemicalElement Bohrium => ChemicalElements.Value[106];
+        public static ChemicalElement Hassium => ChemicalElements.Value[107];
+        public static ChemicalElement Meitnerium => ChemicalElements.Value[108];
+        public static ChemicalElement Darmstadium => ChemicalElements.Value[109];
+        public static ChemicalElement Roentgenium => ChemicalElements.Value[110];
+        public static ChemicalElement Copernicium => ChemicalElements.Value[111];
+        public static ChemicalElement Ununtrium => ChemicalElements.Value[112];
+        public static ChemicalElement Ununquadium => ChemicalElements.Value[113];
+        public static ChemicalElement Ununpentium => ChemicalElements.Value[114];
+        public static ChemicalElement Ununhexium => ChemicalElements.Value[115];
+        public static ChemicalElement Ununseptium => ChemicalElements.Value[116];
+        public static ChemicalElement Ununoctium => ChemicalElements.Value[117];
 
         private Chemicals(IList<ChemicalElement> list) : base(list)
         {
