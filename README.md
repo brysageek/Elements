@@ -1,11 +1,10 @@
 # Elements: A C# Library for the Periodic Table of Elements
 
-Elements is a C# library that contains a readonly static collection of the elements from the periodic table of elements.
+Elements is a C# library that contains a readonly static collection of the elements from the periodic table of elements. Use it anywhere and everywhere !!
 
 ## Features
 
 - Elements provides a simple and convenient way to access the properties of the elements, such as their name, symbol, atomic number, atomic mass, group, period, and more.
-- Elements also supports some basic operations on the elements, such as comparing them by atomic number, mass, or name, or finding the element with a given symbol or name.
 - Elements is compatible with .NET Standard 2.0 and .NET 7.0
 
 ## Usage
@@ -31,16 +30,6 @@ You can also access a specific element by its name:
 Console.WriteLine($"Name: {Elements.Hydrogen.Name} Atomic Mass: {Elements.Hydrogen.AtomicMass});
 ```
 
-Or by its symbol or name using the `Find` method:
-
-```csharp
-var carbon = Elements.Find("C"); // Find the element with symbol "C"
-Console.WriteLine(carbon.AtomicNumber); // Prints "6"
-
-var oxygen = Elements.FindByName("Oxygen"); // Find the element with name "Oxygen"
-Console.WriteLine(oxygen.AtomicMass); // Prints "15.9994"
-```
-
 You can also you access the collection using LINQ expressions:
 
 ```csharp
@@ -53,7 +42,7 @@ foreach (var element in sortedByMass)
 
 ## License
 
-Elements is licensed under the [MIT License], which means you can use, modify, and distribute it freely, as long as you give credit to the original author and include a copy of the license in your project.
+Elements is licensed under the [MIT License], which means you can use, modify, and distribute it freely, as long as you give credit to myself and include a copy of the license in your project.
 
 ## Feedback
 
