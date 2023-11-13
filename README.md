@@ -15,10 +15,10 @@ To use Elements, you need to add the following using directive to your C# file:
 using Brysageek.Elements;
 ```
 
-Then, you can access the elements collection as `Elements.All`, which is an `IReadOnlyList<Element>` that contains all the elements in the periodic table. For example, you can print the name and symbol of each element using a foreach loop:
+Then, you can access the elements collection as `Elements.Chemicals.All`, which is an `IReadOnlyList<Element>` that contains all the elements in the periodic table. For example, you can print the name and symbol of each element using a foreach loop:
 
 ```csharp
-foreach (var element in Elements.All)
+foreach (var element in Elements.Chemicals.All)
 {
     Console.WriteLine($"{element.Name} ({element.Symbol})");
 }
@@ -27,13 +27,13 @@ foreach (var element in Elements.All)
 You can also access a specific element by its name:
 
 ```csharp
-Console.WriteLine($"Name: {Elements.Hydrogen.Name} Atomic Mass: {Elements.Hydrogen.AtomicMass});
+Console.WriteLine($"Name: {Elements.Chemicals.Hydrogen.Name} Atomic Mass: {Elements.Chemicals.Hydrogen.AtomicMass});
 ```
 
 You can also you access the collection using LINQ expressions:
 
 ```csharp
-var sortedByMass = Elements.All.OrderBy(element => element.AtomicMass));
+var sortedByMass = Elements.Chemicals.All.OrderBy(element => element.AtomicMass));
 foreach (var element in sortedByMass)
 {
     Console.WriteLine($"{element.Name} ({element.AtomicMass})");

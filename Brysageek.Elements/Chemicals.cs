@@ -2,11 +2,11 @@
 
 namespace Brysageek.Elements
 {
-    public sealed class Elements :  ReadOnlyCollection<ChemicalElement>
+    public sealed class Chemicals :  ReadOnlyCollection<ChemicalElement>
     {
-        private static readonly Lazy<Elements> ChemicalElements = new(() => new Elements(new ChemicalElementList()));
+        private static readonly Lazy<Chemicals> ChemicalElements = new(() => new Chemicals(new ChemicalElementList()));
 
-        public static Elements All => ChemicalElements.Value;
+        public static Chemicals All => ChemicalElements.Value;
         public static ChemicalElement Hydrogen => ChemicalElements.Value[0];
         public static ChemicalElement Helium => ChemicalElements.Value[1];
         public static ChemicalElement Lithium => ChemicalElements.Value[2];
@@ -126,7 +126,7 @@ namespace Brysageek.Elements
         public static ChemicalElement Ununseptium => ChemicalElements.Value[116];
         public static ChemicalElement Ununoctium => ChemicalElements.Value[117];
 
-        private Elements(IList<ChemicalElement> list) : base(list)
+        private Chemicals(IList<ChemicalElement> list) : base(list)
         {
         }
     }
