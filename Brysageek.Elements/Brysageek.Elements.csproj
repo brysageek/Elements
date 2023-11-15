@@ -13,6 +13,7 @@
     <RepositoryType>git</RepositoryType>
     <Version>0.9.1-beta</Version>
     <PackageIcon>Elements.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
