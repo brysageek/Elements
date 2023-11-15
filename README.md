@@ -5,7 +5,7 @@ Elements is a C# library that contains a readonly static collection of the eleme
 ## Features
 
 - Elements provides a simple and convenient way to access the properties of the elements, such as their name, symbol, atomic number, atomic mass, group, period, and more.
-- Elements is compatible with .NET Standard 2.0 and .NET 7.0
+- Elements is compatible with .NET 8.0
 
 ## Usage
 
