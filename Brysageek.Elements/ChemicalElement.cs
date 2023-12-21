@@ -6,7 +6,7 @@
     /// is distinguished by the number of protons in the nuclei of its atoms, known as its atomic number.
     /// </summary>
     public class ChemicalElement(int group, int period, int atomicNumber, float atomicMass, string? name,
-        string? symbol, float firstIonizationEnergy, float electronegativity, MetalClassificationTypes metalType,
+        string? symbol, float meltingPoint, float boilingPoint, float firstIonizationEnergy, float electronegativity, MetalClassificationTypes metalType,
         bool radioactive = false)
     {
         public int Group { get; } = group;
@@ -15,6 +15,8 @@
         public float AtomicMass { get; } = atomicMass;
         public string? Name { get; } = name;
         public string? Symbol { get; } = symbol;
+        public float? MeltingPoint { get; } = meltingPoint;
+        public float? BoilingPoint { get; } = boilingPoint;
         public float FirstIonizationEnergy { get; } = firstIonizationEnergy;
         public float Electronegativity { get; } = electronegativity;
         public MetalClassificationTypes MetalType { get; } = metalType;

@@ -5,64 +5,154 @@
         public ChemicalElementList()
         {
             Add(new ChemicalElement(1, 1, 1,
-                1.00794f, "Hydrogen", "H", 1312.0f,
-                2.20f, MetalClassificationTypes.NonMetal));
+                1.00794f,
+                "Hydrogen",
+                "H",
+                13.81f,
+                20.28f,
+                1312.0f,
+                2.20f,
+                MetalClassificationTypes.NonMetal));
 
             Add(new ChemicalElement(18, 1, 2,
-                4.002602f, "Helium", "He", 2372.3f,
-                0.0f, MetalClassificationTypes.NobleGas));
+                4.002602f,
+                "Helium",
+                "He",
+                0.95f,
+                4.22f,
+                2372.3f,
+                0.0f,
+                MetalClassificationTypes.NobleGas));
 
             Add(new ChemicalElement(1, 2, 3,
-                6.941f, "Lithium", "Li", 520.2f,
-                0.98f, MetalClassificationTypes.AlkaliMetal));
+                6.941f,
+                "Lithium",
+                "Li",
+                453.65f,
+                1615.00f,
+                520.2f,
+                0.98f,
+                MetalClassificationTypes.AlkaliMetal));
 
             Add(new ChemicalElement(2, 2, 4,
-                9.012182f, "Beryllium", "Be", 899.5f,
-                1.57f, MetalClassificationTypes.AlkalineMetal));
+                9.012182f,
+                "Beryllium",
+                "Be",
+                1560.00f,
+                2744.00f,
+                899.5f,
+                1.57f,
+                MetalClassificationTypes.AlkalineMetal));
 
             Add(new ChemicalElement(13, 2, 5,
-                10.811f, "Boron", "B", 800.6f,
-                2.04f, MetalClassificationTypes.Metalloid));
+                10.811f,
+                "Boron",
+                "B",
+                2348.00f,
+                4273.00f,
+                800.6f,
+                2.04f,
+                MetalClassificationTypes.Metalloid));
 
             Add(new ChemicalElement(14, 2, 6,
-                12.0107f, "Carbon", "C", 1086.5f,
-                2.55f, MetalClassificationTypes.NonMetal));
+                12.0107f,
+                "Carbon",
+                "C",
+                3823.00f,
+                4098.00f,
+                1086.5f,
+                2.55f,
+                MetalClassificationTypes.NonMetal));
 
             Add(new ChemicalElement(15, 2, 7,
-                14.0067f, "Nitrogen", "N", 1402.3f,
-                3.04f, MetalClassificationTypes.NonMetal));
+                14.0067f,
+                "Nitrogen",
+                "N",
+                63.15f,
+                77.36f,
+                1402.3f,
+                3.04f,
+                MetalClassificationTypes.NonMetal));
 
             Add(new ChemicalElement(16, 2, 8,
-                15.9994f, "Oxygen", "O", 1313.9f,
-                3.44f, MetalClassificationTypes.NonMetal));
+                15.9994f,
+                "Oxygen",
+                "O",
+                54.36f,
+                90.20f,
+                1313.9f,
+                3.44f,
+                MetalClassificationTypes.NonMetal));
 
             Add(new ChemicalElement(17, 2, 9,
-                18.998403f, "Fluorine", "F", 1681.0f,
-                3.98f, MetalClassificationTypes.Halogen));
+                18.998403f,
+                "Fluorine",
+                "F",
+                53.53f,
+                85.03f,
+                1681.0f,
+                3.98f,
+                MetalClassificationTypes.Halogen));
 
             Add(new ChemicalElement(18, 2, 10,
-                20.1797f, "Neon", "Ne", 2080.7f,
-                0.0f, MetalClassificationTypes.NobleGas));
+                20.1797f,
+                "Neon",
+                "Ne",
+                24.56f,
+                27.07f,
+                2080.7f,
+                0.0f,
+                MetalClassificationTypes.NobleGas));
 
             Add(new ChemicalElement(1, 3, 11,
-                22.98976f, "Sodium", "Na", 495.8f,
-                0.93f, MetalClassificationTypes.AlkaliMetal));
+                22.98976f,
+                "Sodium",
+                "Na",
+                370.95f,
+                1156.00f,
+                495.8f,
+                0.93f,
+                MetalClassificationTypes.AlkaliMetal));
 
             Add(new ChemicalElement(2, 3, 12,
-                24.3050f, "Magnesium", "Mg", 737.7f,
-                1.31f, MetalClassificationTypes.AlkalineMetal));
+                24.3050f,
+                "Magnesium",
+                "Mg",
+                923.00f,
+                1363.00f,
+                737.7f,
+                1.31f,
+                MetalClassificationTypes.AlkalineMetal));
 
             Add(new ChemicalElement(13, 3, 13,
-                26.98153f, "Aluminum", "Al", 577.5f,
-                1.61f, MetalClassificationTypes.OtherMetal));
+                26.98153f,
+                "Aluminum",
+                "Al",
+                933.437f,
+                2792.00f,
+                577.5f,
+                1.61f,
+                MetalClassificationTypes.OtherMetal));
 
             Add(new ChemicalElement(14, 3, 14,
-                28.0855f, "Silicon", "Si", 786.5f,
-                1.90f, MetalClassificationTypes.Metalloid));
+                28.0855f,
+                "Silicon",
+                "Si",
+                1687.00f,
+                3538.00f,
+                786.5f,
+                1.90f,
+                MetalClassificationTypes.Metalloid));
 
             Add(new ChemicalElement(15, 3, 15,
-                30.97696f, "Phosphorus", "P", 1011.8f,
-                2.19f, MetalClassificationTypes.NonMetal));
+                30.97696f,
+                "Phosphorus",
+                "P",
+                317.30f,
+                553.65f,
+                1011.8f,
+                2.19f,
+                MetalClassificationTypes.NonMetal));
 
             Add(new ChemicalElement(16, 3, 16,
                 32.065f, "Sulfur", "S", 999.6f,
